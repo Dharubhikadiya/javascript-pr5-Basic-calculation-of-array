@@ -1,0 +1,86 @@
+<script type="text/javascript">
+
+     // sort array method
+
+var arr= ["php","angular js","android","ruby","python"];
+var result = arr.sort();
+document.write("Ans = "+result);
+console.log(arr);
+
+document.write("<br>");
+
+    // reverce array method
+
+var arr = ["php","angular js","android","ruby","python"];
+var rev = arr.reverse();
+document.write("Ans = "+rev);
+console.log(arr);
+
+document.write("<br>");
+ 
+    //  reverce array method
+
+var arr = ["php","angular js","android","ruby","python"];
+var ans = arr.pop();
+document.write("Ans = "+arr);
+console.log(arr);
+
+document.write("<br>");
+
+    // add first element in array
+
+var arr = ["Php", "Node", "Javascript","Reactjs","Flutter"];
+var ans = arr.unshift("Android");
+document.write("Ans = "+arr);
+console.log(arr);
+
+document.write("<br>");
+
+    //  string convert upper to lowercase.
+
+var str = "Red And White";
+var value = str.toLowerCase();
+document.write("Upper to Lowercase :- "+value);
+
+document.write("<br>");
+
+    //  convert string to array.
+var a = "Red and White";
+var value = Array.from(a);
+document.write("Ans :- "+value);
+
+document.write("<br>");
+
+
+    //  all array element sum
+var number = [10,8,25,14,2],sum=0;
+
+var ans = number.map(function demo(value,index,Array){
+    return sum+=value;
+});
+console.log(sum);
+document.write("Ans :- "+sum);
+
+document.write("<br>");
+
+    //  all negative elements
+
+var arr = [10,-8,-25,14,-2];
+
+var ans = arr.filter(function demo(value,index,Array){
+    return value <= 0;
+});
+console.log(ans);
+document.write("Ans :- "+ans);
+
+document.write("<br>");
+
+    //  convert array to string.
+
+var arr = ["Php", "Node", "Javascript",
+"Reactjs","Flutter"];
+var value = arr.toString();
+console.log(arr.toString());
+document.write("Ans :- "+value);
+
+</script>
